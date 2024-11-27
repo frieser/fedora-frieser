@@ -58,5 +58,8 @@ modules:
   - type: chezmoi
     repository: https://github.com/frieser/dotfiles 
     branch: main
+  - type: script
+    snippets:
+      - "curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh"
   - type: signing 
 
