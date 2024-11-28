@@ -60,7 +60,6 @@ modules:
     repository: https://github.com/frieser/dotfiles 
     branch: main
   - type: script
-    snippets:
-      - 'curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh -x'
+    snippet: "git clone https://github.com/zplug/zplug $HOME/.local/share/zplug"
   - type: signing 
 
