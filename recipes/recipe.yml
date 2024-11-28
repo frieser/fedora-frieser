@@ -36,6 +36,7 @@ modules:
         - org.videolan.VLC
         - org.gnome.Extensions
         - com.valvesoftware.Steam
+        - org.gnome.TextEditor
       remove:
       
   - type: fonts
@@ -60,6 +61,6 @@ modules:
     branch: main
   - type: script
     snippets:
-      - "curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh -x"
+      - 'curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh -x'
   - type: signing 
 
