@@ -60,6 +60,7 @@ modules:
     repository: https://github.com/frieser/dotfiles 
     branch: main
   - type: script
-    snippet: "git clone https://github.com/zplug/zplug $HOME/.local/share/zplug"
+    snippets: 
+      - "mkdir -p /usr/share/zplug && git clone https://github.com/zplug/zplug /usr/share/zplug"
   - type: signing 
 
