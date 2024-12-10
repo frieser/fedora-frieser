@@ -39,6 +39,7 @@ modules:
         - com.valvesoftware.Steam
         - org.gnome.TextEditor
         - org.gnome.Cheese
+        - com.usebottles.bottles
       remove:
       
   - type: fonts
