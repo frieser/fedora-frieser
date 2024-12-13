@@ -41,6 +41,8 @@ modules:
         - org.gnome.Cheese
         - com.usebottles.bottles
         - org.gnome.Boxes
+        - com.github.tchx84.Flatseal
+        - io.github.flattool.Warehouse
       remove:
       
   - type: fonts
