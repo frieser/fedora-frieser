@@ -19,6 +19,7 @@ modules:
       - zsh
       - vim
       - gnome-pomodoro
+      - gnome-boxes
     remove:
       - firefox
       - firefox-langpacks 
