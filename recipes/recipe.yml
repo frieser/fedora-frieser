@@ -14,10 +14,10 @@ modules:
     repos:
     install:
       - kitty
-#      - sshuttle
-#      - docker
+      - sshuttle
+      - docker
       - zsh
-#      - vim
+      - vim
       - gnome-pomodoro
       - gnome-boxes
     remove:
